@@ -6,9 +6,8 @@ class App extends React.Component {
   state = {
     count: 0
   }
-
   add = () => {
-    // console.log("plus");
+    //  console.log("plus");
     this.setState(current => ({ count: current.count + 1 }));
   };
   minus = () => {

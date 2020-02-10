@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from "prop-types";
 
 class App extends React.Component {
-  
+
   state = {
     count: 0
   }
@@ -25,8 +25,6 @@ class App extends React.Component {
       </div>
     );
   }
-
-
 }
 
 export default App;
